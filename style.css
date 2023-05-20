@@ -140,3 +140,16 @@ font-size: 24px;
 line-height: 28px;
 color: #E7E5E5;
 }
+@media sreen ang max-width(400px){
+	.main__inner{
+	flex-direction: column;
+	}
+	.slide__inner {
+    	display: flex;
+	}
+	.info_inner {
+   	display: flex;
+	flex-direction: column;
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+}
