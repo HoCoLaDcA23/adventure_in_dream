@@ -152,4 +152,16 @@ color: #E7E5E5;
 	flex-direction: column;
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	@media sreen ang max-width(375px){
+		.main {
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+		.slide__inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+    flex-direction: column;
+			
 }
