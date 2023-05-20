@@ -1,0 +1,142 @@
+.main{
+	background-image:url('images/glavna.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+.container{
+	width:100%;
+	max-width: 1300px;
+	margin: 0 auto; 
+}
+.main__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+		font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #B9E2D9;
+}
+.h1{
+	font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+
+color: #8CC4B7;
+
+}
+
+}
+.slide{
+	width: 100%;
+	height: 100vh;
+	background-image:cover;
+	background-position:center;
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+
+color: #FFFFFF;
+
+}
+.great_britain{
+		background-image: url('images/britain.jpg');
+}
+.slide__inner{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+.slide__title{
+	font-family: 'Roboto';
+	font-style: italic;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	color: #B63847;
+}
+.btn{
+	font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: #D0D8D6;
+background: #B63946;
+padding: 15px 10px 15px 10px;
+display: block;
+text-decoration:none;
+margin-bottom: 150px;
+}
+.first-banner{
+	background-image:url('images/flag1.jpg');
+	width: 100%;
+	height: 346px;
+	background-size: cover;
+}
+.italy{
+	background-image:url('images/italyfon.jpg');
+	
+}
+.korea{
+	background-image:url('images/japanfon.jpg');
+}
+.container{
+	width:100%;
+	max-width: 1346px;
+	margin: 0 auto;
+	
+}
+.info{
+
+background: #EFECEC;
+}
+
+.cart{
+background: #FFFFFF;
+height: 250px;
+width: 50%;
+}
+.cart img{
+	float:left;
+	margin: 20px;
+	height: 80%;
+}
+.cart:nth-child(2n) img{
+	float:right;
+}
+.info_inner{
+	display: flex;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	gap: 30px;
+}
+.back{
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+.slide__inner p{
+	font-family: 'Roboto';
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #E7E5E5;
+}

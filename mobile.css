@@ -1,0 +1,47 @@
+body{
+	font: 'Roboto', sans-serif;
+}
+.main{
+		height: 100vh;
+		width: 100%;
+		background-image: url('9may/bg.png');
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		padding: 100px 50px;
+}
+.main h1{
+	color: #CD0000;
+	font-size: 40px;
+	font-weight: 700;
+}
+.main p{
+	font-size: 18px;
+	display: block;
+	width: 50%;
+	font-weight: 700;
+}
+.btn{
+	padding: 10px 20px;
+	color: #FFFFFF;
+	background-color: #CD0000;
+	font-size: 18px;
+	display: block;
+}
+.btn:hover{
+background-color:#e34234;
+}
+@media screen and (max-width: 500px){
+.main h1{
+	color: #CD0000;
+	font-size: 24px;
+	font-weight: 600;
+}
+.main p{
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	font-weight: 500;
+}
+}
